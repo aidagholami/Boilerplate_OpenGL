@@ -22,3 +22,15 @@ Installing SOIL2
 Download SOIL2 from the repository (https://github.com/SpartanJ/SOIL2)
 Go to the source file ‘src/SOIL2’ copy all the content and past it  in a folder in your project like below:
 ProjectName/ProjectName/Linking/SOIL2
+
+
+## GitHub
+If you have problem with remote or origin, remove the remote and origin and add it again like below:
+
+git remote -v
+git remote rm origin
+git remote rm github
+
+git remote add origin https://github.com/aidagholami/Youtube_Tutorial.git
+
+with your own git repository.
